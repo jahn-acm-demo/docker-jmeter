@@ -3,7 +3,7 @@ pool:
 
 variables:
   APP_NAME: "jmeter"
-  ARTEFACT_ID: "sockshop/$(APP_NAME):latest"
+  ARTEFACT_ID: "sockshop/$(APP_NAME)"
   ACR_ENDPOINT: $(acrEndpoint)
 
 steps:
