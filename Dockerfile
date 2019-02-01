@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
  
-http://mirror.nbtelecom.com.br/apache/jmeter/binaries/apache-jmeter-5.0.tgz
+RUN wget http://mirror.nbtelecom.com.br/apache/jmeter/binaries/apache-jmeter-5.0.tgz
 RUN tar -xvzf apache-jmeter-4.0.tgz
 RUN rm apache-jmeter-4.0.tgz
 
